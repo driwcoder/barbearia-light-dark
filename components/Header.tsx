@@ -52,7 +52,7 @@ const Header = () => {
           onClick={toggleTheme}
         >
           <Image
-            src={'/assets/moon.png'}
+            src={`${theme.image}`}
             width={25}
             height={25}
             alt='logo da barbearia'
